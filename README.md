@@ -5,8 +5,6 @@ Include neat in an ember-cli app.
 When the addon is installed, it will add neat 1.7.1 as
 a bower dependency.
 
-If you're using ember-cli-bourbon there is an issue with the version of bourbon that neat 1.7.1 requires. ember-cli-bourbon will install 3.1.2. Make sure to choose version 3.1.2 when installing the neat bower package via the blueprint.
-
 ## Dependencies
 
 Your project should already be set up to handle sass/scss builds. If you're not, do so by running:
