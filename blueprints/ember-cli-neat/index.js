@@ -6,6 +6,6 @@ module.exports = {
   },
 
   afterInstall: function(options) {
-    return this.addBowerPackageToProject('neat', '~1.7.1');
+    return this.addBowerPackageToProject('neat', '~1.7.2');
   }
 };
