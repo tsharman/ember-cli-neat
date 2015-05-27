@@ -2,7 +2,7 @@
 
 Include neat in an ember-cli app.
 
-When the addon is installed, it will add neat 1.7.1 as
+When the addon is installed, it will add neat 1.7.2 as
 a bower dependency.
 
 ## Dependencies
