@@ -1,5 +1,6 @@
 'use strict';
 var path = require('path');
+var Funnel = require('broccoli-funnel');
 
 module.exports = {
   name: 'ember-neat',
@@ -8,7 +9,7 @@ module.exports = {
   },
   treeForStyles: function() {
     var neatPath = path.join(this.app.bowerDirectory, 'neat', 'app/assets/stylesheets');
-    var neatTree = this.pickFiles(this.treeGenerator(neatPath), {
+    var neatTree = new Funnel(this.treeGenerator(neatPath), {
       srcDir: '/',
       destDir: '/app/styles'
     });
