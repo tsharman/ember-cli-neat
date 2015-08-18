@@ -38,6 +38,7 @@
     "configPath": "tests/dummy/config"
   },
   "dependencies": {
+    "broccoli-merge-trees": "^0.2.3",
     "broccoli-funnel": "^0.2.3"
   }
 }
