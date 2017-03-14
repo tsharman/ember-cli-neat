@@ -1,6 +1,4 @@
 {
-  "name": "ember-cli-neat",
-  "dependencies": {
-    "neat": "~1.7.2"
-  }
+"name": "ember-cli-neat",
+"dependencies": {}
 }
