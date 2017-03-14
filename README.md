@@ -9,32 +9,44 @@ a bower dependency.
 
 Your project should already be set up to handle sass/scss builds. If you're not, do so by running:
 
-    npm install broccoli-sass --save-dev
+    ember install ember-cli-sass
 ## Usage
 
 In your ember-cli (>= 0.1.1) project, run:
 
-    npm install ember-cli-neat --save-dev
-    ember g ember-cli-neat
+    ember install ember-cli-neat
 
 The generator will create an `app.scss` with the sole contents being:
 
+    @import "bourbon";
     @import "neat";
 
 If you already have content in your `app.scss`, you can just choose "n" and add that
 line to the top of `app.scss` yourself.
 
-## Developing this Addon
+## Installation
 
-* `ember server`
-* Visit the dummy app at http://localhost:4200.
+* `git clone <repository-url>` this repository
+* `cd ember-cli-neat`
+* `npm install`
+* `bower install`
+
+## Running
+
+* `ember serve`
+* Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ## Running Tests
 
+* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+## Building
+
+* `ember build`
+
+For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
 
 ## Credit
 
