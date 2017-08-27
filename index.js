@@ -22,7 +22,7 @@ module.exports = {
 
     var neatPath = path.dirname(require.resolve('bourbon-neat'));
     var neatFunnel = new Funnel(neatPath, {
-      srcDir: 'app/assets/stylesheets',
+      srcDir: 'core',
       destDir: 'app/styles',
       annotation: 'Funnel (neat)'
     });

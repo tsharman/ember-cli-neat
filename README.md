@@ -2,8 +2,7 @@
 
 Include neat in an ember-cli app.
 
-When the addon is installed, it will add neat 1.7.2 as
-a bower dependency.
+When the addon is installed, it will add neat 2.1.0 as an npm dependency.
 
 ## Dependencies
 
@@ -29,7 +28,6 @@ line to the top of `app.scss` yourself.
 * `git clone <repository-url>` this repository
 * `cd ember-cli-neat`
 * `npm install`
-* `bower install`
 
 ## Running
 

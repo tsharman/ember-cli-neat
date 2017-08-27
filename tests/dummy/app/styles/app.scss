@@ -1,9 +1,14 @@
 @import 'bourbon';
 @import 'neat';
 
+$neat-grid: (
+  columns: 12,
+  gutter: 20px,
+);
+
 .test-grid {
-  @include outer-container;
+  @include grid-container;
   li {
-    @include span-columns(2);
+    @include grid-column(2);
   }
 }
